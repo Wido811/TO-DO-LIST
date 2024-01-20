@@ -1,0 +1,33 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Recruiters",
+      "date": "2023-11-20",
+      "description": "Contact recruiters about the new position to be filled",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Meeting",
+      "date": "2023-11-21",
+      "description": "Meeting with the engineering team",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "hi",
+      "description": "hiii",
+      "date": "2024-01-26",
+      "done": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "login": "mail@gmail.com",
+      "password": "bingo",
+      "token": "ffo33dde"
+    }
+  ]
+}

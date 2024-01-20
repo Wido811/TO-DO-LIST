@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "IT",
+      "date": "2023-11-16",
+      "description": "Send an e-mail to update the IT team",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Designers",
+      "date": "2023-11-17",
+      "description": "Call the design agency to finalize the models",
+      "done": false
+    },
+    {
+      "id": 3,
+      "title": "Recruiters",
+      "date": "2023-11-20",
+      "description": "Contact recruiters about the new position to be filled",
+      "done": false
+    },
+    {
+      "id": 4,
+      "title": "Meeting",
+      "date": "2023-11-21",
+      "description": "Meeting with the engineering team",
+      "done": false
+    }
+  ]
+}

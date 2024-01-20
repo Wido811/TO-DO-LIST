@@ -1,0 +1,15 @@
+<div class="container">
+   <app-todo-detail *ngIf="_TodoService.todoDetailShowModal" [todo]="selectedTodo"></app-todo-detail> 
+   <app-todo-update *ngIf="_TodoService.todoUpdateShowModal" [todo]="selectedTodo"></app-todo-update> 
+   <app-todo-template-driven-form *ngIf="_TodoService.todoAddShowModal" ></app-todo-template-driven-form> 
+  <div class="todo" *ngFor="let todo of todoList">
+    
+        {{todo.title}}
+        <div>
+            <i><fa-icon [icon]="liste" class="on-icon" (click)="this._TodoService.todoDetailShowModal=true;selectTodo(todo)"></fa-icon></i>
+            <i><fa-icon [icon]="poubelle" class="on-icon" (click)="deleteTodo(todo)"></fa-icon></i>
+            <i><fa-icon [icon]="pen" class="on-icon" (click)="this._TodoService.todoUpdateShowModal=true;selectTodo(todo)"></fa-icon></i>
+        </div>
+  </div>
+</div>
+
